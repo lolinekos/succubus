@@ -4,9 +4,9 @@
 		"description":"Udp Flood",
 		"permission":[],
 		"api":[
-			"http://link.one",
-			"http://link.two",
-			"http://link.three"
+			"http://link.one?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.two?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.three?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test"
 		]
 	},
 	{
@@ -14,9 +14,9 @@
 		"description":"tcp Flood",
 		"permission":["vip"],
 		"api":[
-			"http://link.one",
-			"http://link.two",
-			"http://link.three"
+			"http://link.one?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.two?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.three?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test"
 		]
 	},
 	{
@@ -24,9 +24,9 @@
 		"description":"ldap amplification Flood",
 		"permission":["vip","admin"],
 		"api":[
-			"http://link.one",
-			"http://link.two",
-			"http://link.three"
+			"http://link.one?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.two?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test",
+			"http://link.three?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=test"
 		]
 	}
 ]
