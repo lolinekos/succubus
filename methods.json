@@ -1,0 +1,32 @@
+[
+	{
+		"name":"udp",
+		"description":"Udp Flood",
+		"permission":[],
+		"api":[
+			"http://link.one",
+			"http://link.two",
+			"http://link.three"
+		]
+	},
+	{
+		"name":"tcp",
+		"description":"tcp Flood",
+		"permission":["vip"],
+		"api":[
+			"http://link.one",
+			"http://link.two",
+			"http://link.three"
+		]
+	},
+	{
+		"name":"ldap",
+		"description":"ldap amplification Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://link.one",
+			"http://link.two",
+			"http://link.three"
+		]
+	}
+]

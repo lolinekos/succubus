@@ -1,0 +1,31 @@
+{
+	"mysql":{
+		"address":"127.0.0.1:3306",
+		"username":"root",
+		"password":"analsex.SuSsy&#@putin!is%a^pedo#fbskid&&niggaddos420*nekoontop(#&^trapskid*sm0k1ng@#Cr4ck",
+		"table":"succubus"
+	},
+	"terminal":{
+		"title":"Succubus SexySunSet Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
+		"prompt":"[0m[[38;2;245;85;41mS[38;2;245;81;51mu[38;2;245;77;61mC[38;2;245;73;71mC[38;2;245;69;81mu[38;2;245;65;91mB[38;2;245;61;101mu[38;2;245;57;110mS[0m]> ",
+		"banner":"succ",
+		"attack":"attack",
+		"help":true
+	},
+	"commands":[
+		{
+			"name":"test",
+			"alias":["testing","123","fatnigger","analsex"],
+			"permission":["admin"],
+			"asset":"test",
+			"description":"test command"
+		},
+		{
+			"name":"myinfo",
+			"alias":["acccount","info"],
+			"permission":[],
+			"asset":"accountinfo",
+			"description":"returns user info"
+		}
+	]
+}
