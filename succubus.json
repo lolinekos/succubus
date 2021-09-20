@@ -28,5 +28,9 @@
 			"asset":"accountinfo",
 			"description":"returns user info"
 		}
-	]
+	],
+	"hardcoded":{
+		"help":true,
+		"methods":false
+	}
 }
