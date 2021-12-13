@@ -1,6 +1,7 @@
 [
 	{
 		"name":"udp",
+		"time": 300,
 		"description":"Udp Flood",
 		"permission":[],
 		"api":[
@@ -11,6 +12,7 @@
 	},
 	{
 		"name":"tcp",
+		"time": 300,
 		"description":"tcp Flood",
 		"permission":["vip"],
 		"api":[
@@ -21,6 +23,7 @@
 	},
 	{
 		"name":"ldap",
+		"time": 300,
 		"description":"ldap amplification Flood",
 		"permission":["vip","admin"],
 		"api":[
