@@ -13,8 +13,7 @@
 		"attack":"attack",
                 "403":"[0m403 You Do Not Have Access!\r\n",
 		"404":"[0m404 Asset Not Found!\r\n",
-		"500":"[0m500 Asset Error!\r\n",
-		"help":true
+		"500":"[0m500 Asset Error!\r\n"
 	},
 	"commands":[
 		{
