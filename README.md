@@ -2,6 +2,8 @@
 
 ![Succubus IMG](https://repository-images.githubusercontent.com/399815613/4fd6f7f4-9b4d-4885-a1d2-d2ef65398471)
 
+1836 Lines of code and counting
+
 Non profit c2 for all you wanting something to 
 get off of the ground and start your projects.
 Don't annoy or complain to others that they are
