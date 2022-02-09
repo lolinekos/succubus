@@ -19,7 +19,7 @@ idiot. :)
   
   > You may need to allow localhost to connect if you do not allow remote connections here is a command that should allow you to whitelist yourself 
   > 
-  > `$ mysql -u USERNAME -pSECRET_PASSWORD mysql -e "grant ALL on *.* to USERNAME@'%' IDENTIFIED by 'SECRET_PASSWORD';"`
+  > `$ mysql -u USERNAME -pSECRET_PASSWORD mysql -e "grant ALL on *.* to USERNAME@'localhost' IDENTIFIED by 'SECRET_PASSWORD';"`
 
   `$ mysql -u USERNAME -p SECRET_PASSWORD succubus < doodump.sql`
   *that's all there is too it folks*
