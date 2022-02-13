@@ -1,6 +1,6 @@
 # Succubus C2
 
-![Succubus IMG](https://repository-images.githubusercontent.com/399815613/4fd6f7f4-9b4d-4885-a1d2-d2ef65398471)
+![Succubus IMG](https://repository-images.githubusercontent.com/399815613/382efa0e-9147-4225-a304-29fccb61b25a)
 
 1836 Lines of code and counting
 
