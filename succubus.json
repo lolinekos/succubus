@@ -2,19 +2,59 @@
 	"mysql":{
 		"address":"127.0.0.1:3306",
 		"username":"root",
-		"password":"analsex.SuSsy&#@putin!is%a^pedo#fbskid&&niggaddos420*nekoontop(#&^trapskid*sm0k1ng@#Cr4ck",
+		"password":"I.Hate()Nigas_sUssSy#B1tc3s_Sc4mming90Yall_4_CNCs(XD$$Retards",
 		"table":"succubus"
 	},
-	"terminal":{
-		"port":999,
-		"title":"Succubus SexySunSet Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
-		"prompt":"[0m[[38;2;245;85;41mS[38;2;245;81;51mu[38;2;245;77;61mC[38;2;245;73;71mC[38;2;245;69;81mu[38;2;245;65;91mB[38;2;245;61;101mu[38;2;245;57;110mS[0m]> ",
-		"banner":"succ",
-		"attack":"attack",
-                "403":"[0m403 You Do Not Have Access!\r\n",
-		"404":"[0m404 Asset Not Found!\r\n",
-		"500":"[0m500 Asset Error!\r\n"
+	"connection":{
+		"port":999
 	},
+    "webhook":{
+        "enabled":true,
+        "url":"https://discord.com/api/webhooks/"
+    },
+    "branding":{
+        "title":"[<<$spinner>>] Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
+		"prompt":"┌──[Succubus]-[~/succubus/cnc/<<$username>>]\r\n└──╼➤",
+		
+        "assets":{
+            "welcome":"welcome",
+            "banner":"succ",
+		    "attack":"attack"
+        },
+
+        "errors":{
+            "403":"403 You Do Not Have Access!",
+            "404":"404 Asset Not Found!",
+            "500":"500 Asset Error!"
+        },
+        "hardcoded":{
+        
+            "-Comment- Remove this line" : "Only these 2 are defined as of now removing them will also disable them keep this in mind!",
+    
+            "help":true,
+            "methods":true
+        },
+        "misc":{
+            "attack spinner":true,
+            "captcha":true,
+
+            "-Comment- Remove this line": "This is not implemented in free succubus builds",
+            "prompt colors":[
+                {
+                    "R": 255,
+                    "G": 0,
+                    "B": 0
+                },
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 255
+                }
+
+            ]
+        }
+    },
+
 	"commands":[
 		{
 			"name":"test",
@@ -26,13 +66,11 @@
 		{
 			"name":"myinfo",
 			"alias":["acccount","info"],
-			"permission":[],
+
+            "-Comment- Remove this line" : "You do not need to define empty types such as a command with no permissions needed!",
+
 			"asset":"accountinfo",
 			"description":"returns user info"
 		}
-	],
-	"hardcoded":{
-		"help":true,
-		"methods":false
-	}
+	]
 }
