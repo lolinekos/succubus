@@ -13,7 +13,7 @@
         "url":"https://discord.com/api/webhooks/"
     },
     "branding":{
-        "title":"[<<$spinner>>] Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
+        "title":"[<<$spinner>>] Succubus Nuru Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
 	"prompt":"┌──[Succubus]-[~/succubus/cnc/<<$username>>]\r\n└──╼➤",
 		
         "assets":{
