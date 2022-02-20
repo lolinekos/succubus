@@ -1,0 +1,87 @@
+{
+    "gradient":[
+        {
+            "name":"test",
+            "type":"horizontal",
+            "colors": [
+                {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                },
+                {
+                    "r": 0,
+                    "g": 0,
+                    "b": 255
+                }
+            ]
+        },
+        {
+            "name":"red",
+            "type":"horizontal",
+            "colors": [
+                {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                }
+            ]
+        },
+        {
+            "name":"cool",
+            "type":"horizontal",
+            "colors":[
+                {
+                    "r": 255,
+                    "g": 0,
+                    "b": 255
+                },
+                {
+                    "r": 0,
+                    "g": 255,
+                    "b": 255
+                }
+            ]
+        },
+        {
+            "name":"bruh",
+            "type":"horizontal",
+            "colors":[
+                {
+                    "r": 255,
+                    "g": 36,
+                    "b": 36
+                },
+                {
+                    "r": 0,
+                    "g": 0,
+                    "b": 214
+                }
+            ]
+        },
+        {
+            "name":"redish",
+            "type":"horizontal",
+            "colors":[
+                {
+                    "r": 240,
+                    "g": 240,
+                    "b": 0
+                },
+                {
+                    "r": 190,
+                    "g": 0,
+                    "b": 170
+                },
+                {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                }
+            ]
+        }
+    ],
+    "gif": {
+        "-Comment- Remove this line" : "Nothing to do here"
+    }
+}
