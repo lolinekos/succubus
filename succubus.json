@@ -34,7 +34,10 @@
             "-Comment- Remove this line" : "Only these 2 are defined as of now removing them will also disable them keep this in mind!",
     
             "help":true,
-            "methods":true
+            "methods":true,
+	    "ping":true,
+            "tcpping":true,
+            "lookup":true
         },
         "misc":{
             "attack spinner":true,
