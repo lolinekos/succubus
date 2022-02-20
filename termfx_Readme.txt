@@ -29,3 +29,8 @@
 -----------------------------------------
 
 <<$spinner>> spinner for title only
+
+-----------------------------------------
+
+<<ansi(LINK)>> Paid Gif DLC
+<<ascii(LINK)>> Paid Gif DLC
