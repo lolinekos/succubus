@@ -29,7 +29,7 @@
         },
         {
             "name":"cool",
-            "type":"horizontal",
+            "type":"radial",
             "colors":[
                 {
                     "r": 255,
@@ -45,7 +45,7 @@
         },
         {
             "name":"bruh",
-            "type":"horizontal",
+            "type":"diagonal",
             "colors":[
                 {
                     "r": 255,
@@ -83,5 +83,31 @@
     ],
     "gif": {
         "-Comment- Remove this line" : "Nothing to do here"
+    },
+    "api":{
+        "config":{
+            "enabled":true,
+            "launch feedback":true,
+            "port":1337,
+            "path":"/succubus/api"
+        },
+        "servers":[
+            {
+                "name":"alpha",
+                "server":{
+                    "host":"10.0.0.113:22",
+                    "username":"test",
+                    "password":"test"
+                }
+            },
+            {
+                "name":"omega",
+                "server":{
+                    "host":"127.0.0.2:22",
+                    "username":"root",
+                    "password":"secret"
+                }
+            }
+        ]
     }
 }
