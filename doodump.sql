@@ -56,7 +56,7 @@ CREATE TABLE `users` (
   `banned` tinyint(1) NOT NULL,
   `api` tinyint(1) NOT NULL
   `added` int(10) NOT NULL DEFAULT '0',
-  `key` text ,
+  `key` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
