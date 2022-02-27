@@ -54,7 +54,7 @@ CREATE TABLE `users` (
   `reseller` tinyint(1) unsigned NOT NULL,
   `admin` tinyint(1) unsigned NOT NULL,
   `banned` tinyint(1) NOT NULL,
-  `api` tinyint(1) NOT NULL
+  `api` tinyint(1) NOT NULL,
   `added` int(10) NOT NULL DEFAULT '0',
   `key` text NOT NULL,
   PRIMARY KEY (`id`),
