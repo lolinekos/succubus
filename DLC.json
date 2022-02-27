@@ -94,7 +94,7 @@
         "servers":[
             {
                 "name":"alpha",
-                "server":{
+                "config":{
                     "host":"10.0.0.113:22",
                     "username":"test",
                     "password":"test"
@@ -102,7 +102,7 @@
             },
             {
                 "name":"omega",
-                "server":{
+                "config":{
                     "host":"127.0.0.2:22",
                     "username":"root",
                     "password":"secret"
