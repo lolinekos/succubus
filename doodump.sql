@@ -54,7 +54,9 @@ CREATE TABLE `users` (
   `reseller` tinyint(1) unsigned NOT NULL,
   `admin` tinyint(1) unsigned NOT NULL,
   `banned` tinyint(1) NOT NULL,
+  `api` tinyint(1) NOT NULL
   `added` int(10) NOT NULL DEFAULT '0',
+  `key` text ,
   PRIMARY KEY (`id`),
   KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
