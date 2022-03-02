@@ -13,6 +13,8 @@ idiot. :)
 
 ## Setup
 
+Setup Video - https://www.youtube.com/watch?v=TFNugqO2y4k
+
 - first step - mysql
 
   *need to setup mysql?* Go Here: https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
