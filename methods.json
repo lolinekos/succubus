@@ -5,9 +5,9 @@
 		"description":"Udp Flood",
 		"permission":[],
 		"api":[
-			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>"
+			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>>"
 		],
 		"server":[
 			{
@@ -26,9 +26,9 @@
 		"description":"tcp Flood",
 		"permission":["vip"],
 		"api":[
-			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>"
+			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>>"
 		]
 	},
 	{
@@ -37,9 +37,9 @@
 		"description":"ldap amplification Flood",
 		"permission":["vip","admin"],
 		"api":[
-			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>",
-			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>"
+			"http://link.one/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.two/api?host=<<$host>>&port=<<$port>>&time=<<$time>>",
+			"http://link.three/api?host=<<$host>>&port=<<$port>>&time=<<$time>>"
 		]
 	}
 ]
