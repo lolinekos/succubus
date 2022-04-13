@@ -18,7 +18,11 @@
 				"name":"omega",
 				"command":"wall <<$host>> <<$port>> <<$time>>"
 			}
-		]
+		],
+		"botnet":{
+			"qbot":"udp"
+			"mirai":"udp"
+		}
 	},
 	{
 		"name":"tcp",
