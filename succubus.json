@@ -14,6 +14,13 @@
         "enabled":true,
         "url":"https://discord.com/api/webhooks/"
     },
+    "fakecount":{
+        "enabled":false,
+        "delay":100,
+        "chance":50,
+        "minimum":700,
+        "maximum":1300
+    },
     "branding":{
         "title":"[<<$spinner>>] Succubus Nuru Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
 	"prompt":"┌──[Succubus]-[~/succubus/cnc/<<$username>>]\r\n└──╼➤",
@@ -38,6 +45,7 @@
 	    "ping":true,
             "tcpping":true,
             "lookup":true
+	    "devices":true
         },
         "misc":{
             "attack spinner":true,
