@@ -20,7 +20,7 @@
 			}
 		],
 		"botnet":{
-			"qbot":"udp"
+			"qbot":"udp",
 			"mirai":"udp"
 		}
 	},
