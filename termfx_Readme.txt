@@ -41,3 +41,7 @@
 <<$port>> Display attacked port where applicable  
 <<$time>> Display duration of attack where applicable  
 <<$method>> Display method of attack where applicable
+
+-----------------------------------------
+
+<<$botcount>> Shows all connected devices including fakecount devices
