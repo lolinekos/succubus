@@ -78,7 +78,8 @@
                     "g": 0,
                     "b": 0
                 }
-            ],
+            ]
+        },
             {
             "name":"neko",
             "type":"horizontal",
@@ -106,7 +107,6 @@
         {
             "name":"theme",
             "type":"theme"
-        }
         }
     ],
     "gif": {
