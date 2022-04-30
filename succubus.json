@@ -48,6 +48,12 @@
             "lookup":true,
 	    "devices":true
         },
+        "captcha":{
+            "enabled":true,
+            "title":"[<<$spinner>>] Succcubus Captcha [<<$spinner>>]",
+            "asset":"captcha",
+            "prompt":"captcha> "
+        },
         "misc":{
             "attack spinner":true,
             "captcha":true,
