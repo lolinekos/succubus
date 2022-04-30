@@ -110,7 +110,8 @@
         }
     ],
     "gif": {
-        "-Comment- Remove this line" : "Nothing to do here"
+        "skipframe" : false,
+        "forcefps": 10
     },
     "api":{
         "config":{
