@@ -46,7 +46,8 @@
 	    "ping":true,
             "tcpping":true,
             "lookup":true,
-	    "devices":true
+	    "devices":true,
+	    "theme":true
         },
         "captcha":{
             "enabled":true,
