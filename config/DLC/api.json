@@ -1,0 +1,26 @@
+{
+    "config":{
+        "enabled":true,
+        "launch feedback":false,
+        "port":1337,
+        "path":"/succubus/api"
+    },
+    "servers":[
+        {
+            "name":"alpha",
+            "config":{
+                "host":"127.0.0.2:22",
+                "username":"root",
+                "password":"password123"
+            }
+        },
+        {
+            "name":"omega",
+            "config":{
+                "host":"127.0.0.2:22",
+                "username":"root",
+                "password":"secret"
+            }
+        }
+    ]
+}

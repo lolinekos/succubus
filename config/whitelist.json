@@ -1,0 +1,122 @@
+[
+	{
+		"prefix":"127.0.0.0",
+		"octal":8,
+		"reason":"bogon loopback"
+	},
+	{
+		"prefix":"0.0.0.0",
+		"octal":8,
+		"reason":"bogon this"
+	},
+	{
+		"prefix":"10.0.0.0",
+		"octal":8,
+		"reason":"bogon private"
+	},
+	{
+		"prefix":"100.64.0.0",
+		"octal":10,
+		"reason":"bogon NAT"
+	},
+	{
+		"prefix":"127.0.53.53",
+		"octal":32,
+		"reason":"bogon name collision occurrence"
+	},
+	{
+		"prefix":"169.254.0.0",
+		"octal":16,
+		"reason":"bogon link local"
+	},
+	{
+		"prefix":"172.16.0.0",
+		"octal":12,
+		"reason":"bogon private-use networks"
+	},
+	{
+		"prefix":"192.0.0.0",
+		"octal":24,
+		"reason":"bogon IETF protocol assignments"
+	},
+	{
+        "prefix":"192.0.2.0",
+        "octal":24,
+        "reason":"bogon"
+    },
+    {
+        "prefix":"192.168.0.0",
+        "octal":16,
+        "reason":"bogon networks"
+        },
+    {
+        "prefix":"198.18.0.0",
+        "octal":15,
+        "reason":"bogon interconnect device benchmark testing"
+        },
+    {
+        "prefix":"198.51.100.0",
+        "octal":24,
+        "reason":"bogon"
+        },
+    {
+        "prefix":"203.0.113.0",
+        "octal":24,
+        "reason":"bogon"
+        },
+    {
+        "prefix":"224.0.0.0",
+        "octal":4,
+        "reason":"bogon"
+        },
+    {
+        "prefix":"240.0.0.0",
+        "octal":4,
+        "reason":"bogon for future use"
+        },
+    {
+        "prefix":"255.255.255.255",
+        "octal":32,
+        "reason":"bogon broadcast"
+    },
+    {
+        "prefix":"103.95.220.0",
+        "octal":22,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"101.64.0.0",
+        "octal":13,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"117.24.0.0",
+        "octal":13,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"115.231.175.0",
+        "octal":25,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"180.188.16.0",
+        "octal":20,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"43.240.204.0",
+        "octal":22,
+        "reason":"Dstat alert"
+    },
+    {
+        "prefix":"1.1.1.0",
+        "octal":24,
+        "reason":"use your brain silly goose"
+    },
+    {
+        "prefix":"8.8.8.0",
+        "octal":24,
+        "reason":"use your brain silly goose"
+    }
+]
