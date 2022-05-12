@@ -11,9 +11,12 @@
 <<$concurrents>> allowed concurrent attacks for session
 <<$timelimit>> allowed max attack time for session
 <<$cooldown>> cooldown between attacks for session
-<<$expiry>> expiry in days for session
 <<$remoteaddress>> connected address for session
 <<$remoteclient>> SSH client for session
+
+<<$expiry>> expiry rounded the the nearest unit of measurement i.e 100 days(s)
+<<$expirydate>> expiry as date 2022-05-20
+<<$expirydays>> expiry as the number of day
 
 -----------------------------------------
 
