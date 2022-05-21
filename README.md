@@ -23,6 +23,10 @@ Setup Video - https://www.youtube.com/watch?v=TFNugqO2y4k
   > 
   > `$ mysql -u USERNAME -pSECRET_PASSWORD mysql -e "grant ALL on *.* to USERNAME@'localhost' IDENTIFIED by 'SECRET_PASSWORD';"`
 
+  > If you have too many file descriptors open change to however much you need
+  > 
+  > `$ ulimit -n 999999`
+
   `$ mysql -u USERNAME -p SECRET_PASSWORD succubus < doodump.sql`
   *that's all there is too it folks*
 
