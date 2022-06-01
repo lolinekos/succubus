@@ -38,6 +38,7 @@
 
 <<ansi(LINK)>> Paid Gif DLC
 <<ascii(LINK)>> Paid Gif DLC
+<<braille(LINK)>>
 
 -----------------------------------------
 
