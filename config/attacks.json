@@ -1,0 +1,12 @@
+{
+    "single instance":true,
+    "global concurrents":null,
+    "attack spinner":false,
+
+    "host limit": {
+        "enabled":true,
+        "attacks":2,
+        "seconds":3600
+    }
+
+}
