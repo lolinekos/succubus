@@ -74,7 +74,7 @@
         },
 
         "misc":{
-            "prompt check":true,
+            "prompt check":false,
             "chat cooldown":5,
             
 
