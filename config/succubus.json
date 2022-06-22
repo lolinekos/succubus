@@ -62,7 +62,8 @@
             "tcpping":true,
             "lookup":true,
             "devices":true,
-            "theme":true
+            "theme":true,
+	    "chat":true,
         },
 
         "captcha":{
@@ -73,7 +74,9 @@
         },
 
         "misc":{
-            "memory assets":true,
+            "prompt check":true,
+            "chat cooldown":5,
+            
 
             "-Comment- Remove this line": "This is not implemented in free succubus builds",
             "prompt colors":[
