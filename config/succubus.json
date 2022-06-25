@@ -63,7 +63,7 @@
             "lookup":true,
             "devices":true,
             "theme":true,
-	    "chat":true,
+	    "chat":true
         },
 
         "captcha":{
