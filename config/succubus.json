@@ -63,7 +63,8 @@
             "lookup":true,
             "devices":true,
             "theme":true,
-	    "chat":true
+	    "chat":true,
+	    "shop":true
         },
 
         "captcha":{
