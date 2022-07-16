@@ -1,0 +1,16 @@
+{
+    "enabled":true,
+    "token":"Token_Here",
+
+
+    "logs":{
+        "enabled":true,
+        "channel": 997046944419553320
+    },
+    "monitor":{
+        "enabled":true,
+        "channel": 997605583647690753,
+        "message": 997619514583826456,
+        "delay": 5000
+    }
+}
