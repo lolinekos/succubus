@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "type":"role",
+            "name":"test",
+            "value":"test",
+            "credits":100
+        },
+        {
+            "type":"timelimit",
+            "name":"moretime",
+            "value":"200",
+            "credits":300
+        },
+        {
+            "type":"concurrent",
+            "name":"morecons",
+            "value":"1",
+            "credits":500
+        },
+        {
+            "type":"expiry",
+            "name":"extradays",
+            "value":"4",
+            "credits":300
+        }
+    ],
+    "xp":{
+        "enabled":true,
+        "attack threshold": 1,
+        "reward":1
+    }
+}
