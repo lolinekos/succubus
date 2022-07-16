@@ -12,11 +12,6 @@
 		"port":999
 	},
 
-    "webhook":{
-        "enabled":false,
-        "url":"https://discord.com/api/webhooks/"
-    },
-
     "fakecount":{
         "enabled":false,
         "port":123,
