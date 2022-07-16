@@ -1,5 +1,9 @@
 [
 	{
+		"string":".*\\.gov.*",
+		"reason":"government"
+	},
+	{
 		"prefix":"127.0.0.0",
 		"octal":8,
 		"reason":"bogon loopback"
