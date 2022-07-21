@@ -33,7 +33,7 @@
         },
 	    
         "login":{
-            "custom":true,
+            "custom":false,
             "title":"Welcome to Succubus CNC",
             "asset":"login",
 
