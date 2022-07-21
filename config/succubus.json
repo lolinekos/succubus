@@ -31,6 +31,17 @@
             "banner":"succ",
 		    "attack":"attack"
         },
+	    
+        "login":{
+            "custom":true,
+            "title":"Welcome to Succubus CNC",
+            "asset":"login",
+
+            "-Comment- Remove this line":"If you don't want your string in here use the include function!",
+
+		    "getuser":"<<include(user)>>",
+            "getpass":"<<include(pass)>>"
+        },
 
         "tos":{ 
             "enabled":false,
