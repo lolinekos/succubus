@@ -29,7 +29,7 @@
         "assets":{
             "welcome":"succ",
             "banner":"succ",
-		    "attack":"attack"
+	    "attack":"attack"
         },
 	    
         "login":{
@@ -39,7 +39,7 @@
 
             "-Comment- Remove this line":"If you don't want your string in here use the include function!",
 
-		    "getuser":"<<include(user)>>",
+	    "getuser":"<<include(user)>>",
             "getpass":"<<include(pass)>>"
         },
 
