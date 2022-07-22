@@ -81,6 +81,7 @@
         },
 
         "misc":{
+	    "spinner":["/", "|", "\\", "-"],
             "prompt check":false,
             "chat cooldown":5,
             
