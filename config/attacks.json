@@ -3,6 +3,7 @@
     "global concurrents":null,
     "attack spinner":false,
     "verify api certificate":true,
+    "allow attack by range":false,
     
     "host limit": {
         "enabled":true,
