@@ -2,7 +2,7 @@
 
 ![Succubus IMG](https://repository-images.githubusercontent.com/399815613/382efa0e-9147-4225-a304-29fccb61b25a)
 
-If you think this is a backdoor please sumbit the proof as an issue or fork this repository otherwise fuck off, sincerely bleach.
+If you think this is a backdoor please submit the proof as an issue or fork to this repository otherwise fuck off, sincerely bleach.
 
 6525 Lines of code and counting
 
