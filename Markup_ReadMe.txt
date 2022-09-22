@@ -1,3 +1,4 @@
+<<$ring>> terminal ring
 <<$clear>> clear screen 
 
 ----------------------------------------
@@ -10,9 +11,17 @@
 <<$username>> username for session
 <<$concurrents>> allowed concurrent attacks for session
 <<$timelimit>> allowed max attack time for session
+<<$credits>> credits in cnc store
 <<$cooldown>> cooldown between attacks for session
 <<$remoteaddress>> connected address for session
 <<$remoteclient>> SSH client for session
+<<$roles>> roles array
+
+<<$vip>> vip boolean
+<<$reseller>> reseller boolean
+<<$admin>> admin boolean
+<<$banned>> banned boolean
+<<$api>> api acess boolean
 
 <<$expiry>> expiry rounded the the nearest unit of measurement i.e 100 days(s)
 <<$expirydate>> expiry as date 2022-05-20
@@ -50,3 +59,9 @@
 -----------------------------------------
 
 <<$botcount>> Shows all connected devices including fakecount devices
+
+-----------------------------------------
+
+<<$date>> date using users timezone
+<<time>> current time (1:00pm)
+<<$timezone>> Timezone of user
