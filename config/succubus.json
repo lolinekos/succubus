@@ -70,7 +70,8 @@
             "devices":true,
             "theme":true,
 	    "chat":true,
-	    "shop":true
+	    "shop":true,
+	    "cfx":true
         },
 
         "captcha":{
