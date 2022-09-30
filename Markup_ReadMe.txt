@@ -3,6 +3,7 @@
 
 ----------------------------------------
 
+<<$uptime>> timesince started
 <<$os>> Server OS
 <<$arch>> Server Cpu arch "x86" the binary is compiled for x86 already
 
