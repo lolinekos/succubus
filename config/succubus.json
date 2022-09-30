@@ -85,7 +85,7 @@
 	    "spinner":["/", "|", "\\", "-"],
             "prompt check":false,
             "chat cooldown":5,
-            
+            "invert gradients":false,
 
             "-Comment- Remove this line": "This is not implemented in free succubus builds",
             "prompt colors":[
