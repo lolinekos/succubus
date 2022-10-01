@@ -52,6 +52,7 @@
 
 -----------------------------------------
 
+<<$delay>> delay of attack in attack asset
 <<$host>> Display attacked host where applicable  
 <<$port>> Display attacked port where applicable  
 <<$time>> Display duration of attack where applicable  
