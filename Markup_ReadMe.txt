@@ -34,6 +34,7 @@
 <<$onlineusers>> open sessions for server
 <<$allgoing>> all running attacks for server
 <<$allattacks>> total attacks for server "mysql"
+<<$totalusers>> total users in database
 
 -----------------------------------------
 
