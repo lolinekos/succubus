@@ -3,6 +3,7 @@
 		"name":"udp",
 		"time":120,
 		"description":"Udp Flood",
+		"group":"test",
 		"default port":80,
 		"default time":100,
 		"permission":[],
