@@ -9,7 +9,7 @@
         "enabled":true,
         "attacks":2,
         "seconds":3600
-    }
+    },
     
     "groups":[
         {
