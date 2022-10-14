@@ -10,5 +10,13 @@
         "attacks":2,
         "seconds":3600
     }
+    
+    "groups":[
+        {
+            "name":"test",
+            "concurrents":3,
+            "timelimit":600
+        }
+    ]
 
 }
