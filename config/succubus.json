@@ -24,7 +24,7 @@
     "branding":{
 
         "title":"<<$botcount>> boats | Succubus Custom Build | Serving <<$username>> | Active Sessions <<$onlineusers>> | <<$expiry>> ",
-	"prompt":"<argon>┌──</>[<argon>Succubus</>]-[~/<argon>succubus</>/<argon>cnc</>/<argon><<$username>></>]\r\n<argon>└───</>➤",
+	"prompt":"<theme>┌──</>[<theme>Succubus</>]-[~/<theme>succubus</>/<theme>cnc</>/<theme><<$username>></>]\r\n<theme>└───</>➤",
 		
         "assets":{
             "welcome":"succ",
@@ -62,16 +62,14 @@
             "-Comment- Remove this line" : "Removing them will also disable them keep this in mind!",
     
             "help":true,
-	    "attack":true,
             "methods":true,
-            "ping":true,
-            "tcpping":true,
-            "lookup":true,
+            "key":true,
+            "tools":true,
             "devices":true,
             "theme":true,
-	    "chat":true,
-	    "shop":true,
-	    "cfx":true
+            "attack":true,
+            "chat":true,
+            "shop":true
         },
 
         "captcha":{
@@ -82,10 +80,10 @@
         },
 
         "misc":{
-	    "spinner":["/", "|", "\\", "-"],
-            "prompt check":false,
+	    "prompt check":true,
             "chat cooldown":5,
-            "invert gradients":false,
+
+            "spinner":["<   3","<-  3","< - 3","<  -3"],
 
             "-Comment- Remove this line": "This is not implemented in free succubus builds",
             "prompt colors":[
@@ -96,28 +94,19 @@
                 }
 
             ],
+            "invert gradients":false,
             "gradient":[
                 {
-                    "r": 22,
-                    "g": 20,
-                    "b": 50
-                },
-                {
-                    "r": 115,
+                    "r": 222,
                     "g": 3,
-                    "b": 192
+                    "b": 244
                 },
                 {
-                    "r": 236,
-                    "g": 56,
-                    "b": 188
-                },
-                {
-                    "r": 253,
-                    "g": 239,
-                    "b": 249
+                    "r": 0,
+                    "g": 46,
+                    "b": 250
                 }
-
+                
             ]
 
         }
