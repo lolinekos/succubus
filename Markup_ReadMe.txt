@@ -66,5 +66,5 @@
 -----------------------------------------
 
 <<$date>> date using users timezone
-<<time>> current time (1:00pm)
+<<$timenow>> current time (1:00pm)
 <<$timezone>> Timezone of user
