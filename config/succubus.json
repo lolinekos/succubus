@@ -50,6 +50,13 @@
             "prompt":"succubus/tos >",
             "answer":"i agree"
         },
+	"otp":{
+	    "-Comment- Remove this line" : "This will force all users to enable otp before using their account!",
+            "enabled":false,
+            "title":"[<<$spinner>>] Succcubus Otp [<<$spinner>>]",
+            "asset":"otp",
+            "prompt":"codeplz> "
+        },
 
         "errors":{
             "403":"<theme>403 You Do Not Have Access!</>",
@@ -81,6 +88,9 @@
 
         "misc":{
 	    "prompt check":true,
+            "lock host":false,
+            "lock timezone":true,
+		
             "chat cooldown":5,
 
             "spinner":["<   3","<-  3","< - 3","<  -3"],
