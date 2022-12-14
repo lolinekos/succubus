@@ -87,7 +87,7 @@
         },
 
         "misc":{
-	    "prompt check":true,
+	    "prompt check":false,
             "lock host":false,
             "lock timezone":true,
 		
