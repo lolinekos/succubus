@@ -3,8 +3,8 @@
 
 	"mysql":{
 		"address":"127.0.0.1:3306",
-		"username":"bleach",
-		"password":"password",
+		"username":"anontechtube",
+		"password":"root",
 		"table":"succubus"
 	},
 
