@@ -1,0 +1,26 @@
+/* CSS Document */
+.full {
+	font: bold 40px arial, sans-serif;
+	background-color: #363435;
+	color: #4d464c;
+}
+.titleText {
+	font: bold 60px arial, sans-serif;
+    color: #ab95a9;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.5);
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+.infoText {
+	font: bold 40px arial, sans-serif;
+    color: #ab95a9;
+}
+.errorText {
+	text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.5);
+	font: bold 65px arial, sans-serif;
+	color: #ff1500;
+}
