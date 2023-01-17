@@ -1,7 +1,7 @@
 {
     "enabled":false,
     "token":"Token_Here",
-
+    "webhook":"Webhooke_Here"
 
     "logs":{
         "enabled":true,
