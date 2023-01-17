@@ -87,6 +87,7 @@
         },
 
         "misc":{
+            "idle timeout":2600,
 	    "prompt check":false,
             "lock host":false,
             "lock timezone":true,
