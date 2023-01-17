@@ -1,0 +1,18 @@
+<<$clear>>\x1b[38;2;163;78;78m
+_________        ___.               ________                 __    
+\_   ___ \___.__.\_ |__   __________\______ \   ____   ____ |  | __
+/    \  \<   |  | | __ \_/ __ \_  __ \    |  \_/ __ \_/ ___\|  |/ /
+\     \___\___  | | \_\ \  ___/|  | \/    `   \  ___/\  \___|    < 
+ \______  / ____| |___  /\___  >__| /_______  /\___  >\___  >__|_ \
+        \/\/          \/     \/             \/     \/     \/     \/
+\x1b[0m
+---> \x1b[38;2;0;251;255mContinuing to cyberspace under alias <<!username>><<sleep(50)>>
+\x1b[0m   - \x1b[38;2;0;251;255mAttempting Cyberware connection\x1b[0m...<<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mStreaming \x1b[0m"\x1b[38;5;1mVisual Feed\x1b[0m" - \x1b[38;2;163;78;78mKiroshi Optics <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mFetching Human Machine Interface\x1b[0m... <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mCyberware\x1b[0m/\x1b[38;2;0;251;255mCyberDeck \x1b[0m- \x1b[38;2;0;251;255mInvoke Device \x1b[0m"\x1b[38;5;1mCySpace Explorer\x1b[0m" <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mHaptic Emulator Detected \x1b[0m"\x1b[38;5;1mBDWreath\x1b[0m" \x1b[38;2;0;251;255mRoute \x1b[38;2;163;78;78mCySpace EmEnv Neuralink <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mCySpace Explorer Esta to \x1b[38;2;163;78;78mnode2f49kd2.arasaka.ntc \x1b[0m"\x1b[38;5;1mConstruct_Schema.q\x1b[0m" <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[0m   - \x1b[38;2;0;251;255mPreforming Anti Data Heuristics\x1b[0m... <<sleep(250)>> \x1b[38;2;61;196;43m OK<<sleep(150)>>
+\x1b[38;2;0;251;255mReturning to \x1b[0m"\x1b[38;5;1mHome\x1b[0m"<<sleep(250)>>
+\x1b[9A\x1b[0G\x1b[0J[\x1b[38;2;0;251;255mCyOs\x1b[0m] \x1b[38;2;0;251;255mWelcome back <<!username>>
