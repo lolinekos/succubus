@@ -1,8 +1,9 @@
 {
     "enabled":false,
     "token":"Token_Here",
-    "webhook":"Webhooke_Here"
+    "webhook":"Webhooke_Here",
 
+    "-Comment- Remove this line":"settings below are for the discord bot",
     "logs":{
         "enabled":true,
         "channel": 997046944419553320
