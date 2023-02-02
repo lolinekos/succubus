@@ -1,1 +1,10 @@
-<<plugin(test.go)>>
+==Config:
+name:test
+alias: tester,thing
+permissions: admin,reseller
+description: this is a test command
+title: test command title
+test: just some text
+End==
+Hey there I'm a test command!
+here is your text variable content: <<$test>>
