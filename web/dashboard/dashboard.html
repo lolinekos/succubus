@@ -1,0 +1,160 @@
+<!--
+=========================================================
+* * Black Dashboard - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/black-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Dashboard
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper">
+    <div class="sidebar">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
+    -->
+      <div class="sidebar-wrapper">
+        <div class="logo">
+          <a class="center simple-text logo-normal">
+            <center>
+              Succubus
+            </center>
+          </a>
+        </div>
+        <ul class="nav">
+          <li class="active">
+            <a href="/dashboard">
+              <i class="tim-icons icon-bulb-63"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="/dashboard/attack">
+              <i class="tim-icons icon-world"></i>
+              <p>Attack</p>
+            </a>
+          </li>
+          <li>
+            <a href="/dashboard/user">
+              <i class="tim-icons icon-single-02"></i>
+              <p>Account</p>
+            </a>
+          </li>
+          {{if .user.admin}}
+          <li>
+            <a href="/dashboard/manage">
+              <i class="tim-icons icon-settings"></i>
+              <p>Manage Users</p>
+            </a>
+          </li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Total Users</h5>
+                <h3 class="card-title"><i class="tim-icons icon-single-02 text-info"></i>{{.totalusers}}</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Attacks Sent</h5>
+                <h3 class="card-title"><i class="tim-icons icon-send text-success"></i>{{.totalallattacks}}</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-category">Your Attacks Sent</h5>
+                <h3 class="card-title"><i class="tim-icons icon-send text-success"></i>{{.totalattacks}}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h2 class="card-category">User Status</h2>
+              </div>
+              <div class="card-body">
+                <center>
+                  <h4>Username</h6> {{.user.username}}
+                    <h4>Timelimit</h6> {{.user.timelimit}} 
+                      <h4>Concurrent limit</h6> {{.user.concurrents}} 
+                        <h4>Cooldown</h6> {{.user.cooldown}} 
+                          <h4>Expiry</h6> {{.user.expiry}}
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <script>
+    $.notify({
+      icon: "tim-icons icon-bell-55",
+      message: "Welcome to the Succubus Control Panel"
+
+    }, {
+      type: "info",
+      timer: 8000,
+      placement: {
+        from: 'top',
+        align: 'center'
+      }
+    });
+  </script>
+</body>
+
+</html>
