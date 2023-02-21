@@ -3,7 +3,8 @@
         "enabled":true,
         "launch feedback":false,
         "port":1337,
-        "path":"/succubus/api"
+        "path":"/succubus/api",
+        "control panel":true
     },
     "servers":[
         {
