@@ -1,4 +1,5 @@
 {
+    "attack toggle": true,
     "single instance":true,
     "global concurrents":null,
     "attack spinner":false,
