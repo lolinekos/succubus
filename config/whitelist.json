@@ -1,6 +1,6 @@
 [
 	{
-		"string":".*\\.gov.*",
+		"string":".gov",
 		"reason":"government"
 	},
 	{
@@ -114,13 +114,11 @@
         "reason":"Dstat alert"
     },
     {
-        "prefix":"1.1.1.0",
-        "octal":24,
+        "string":"1.1.*",
         "reason":"use your brain silly goose"
     },
     {
-        "prefix":"8.8.8.0",
-        "octal":24,
+        "string":"8.8.*",
         "reason":"use your brain silly goose"
     }
 ]
