@@ -1,6 +1,6 @@
 [
 	{
-		"string":".gov",
+		"string":"*.gov",
 		"reason":"government"
 	},
 	{
