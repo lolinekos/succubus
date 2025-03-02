@@ -3,6 +3,7 @@
     "single instance":true,
     "global concurrents":null,
     "attack spinner":false,
+    "json api": false,
     "verify api certificate":true,
     "allow attack by range":false,
     
